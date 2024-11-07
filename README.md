@@ -3,24 +3,23 @@
 ## Table of contents
 
 - [Overview](#overview)
-  - [Technology Used]() 
+- [Technology Used]() 
 - [Screenshot](#screenshot)
 - [Architecture Diagram](#my-process)
 - [Built with](#built-with)
 - [Installation](#installation)
 - [Project structure](#structure)
-- [Database storage](#database)
 - [Author](#author)
 
 
 ## Overview 
 - This SD-WAN Controller leverages OpenFlow and SDN to dynamically route traffic based on real-time metrics, reducing latency by 25% and increasing throughput by 15% in simulations. It optimizes bandwidth and enhances network performance through efficient path selection and traffic prioritization.
 
-- ### Technologies used:
-  - #### Mininet: 
+- ## Technologies used:
+  - ### Mininet: 
       Mininet is a network emulation platform that enables the creation of virtual networks on a single machine, commonly used for software-defined networking (SDN) research, testing, and education. It allows users to emulate complete networks, including hosts, switches, links, and controllers, using lightweight virtualization techniques like network namespaces and virtual Ethernet pairs in Linux to create a realistic network topology similar to real-world networking. Mininet supports OpenFlow switches and can connect to both remote and local SDN controllers, such as the Ryu controller, to manage network behavior effectively.
 
-  - #### Ryu Controller:
+  - ### Ryu Controller:
       Ryu is an open-source software-defined networking (SDN) controller framework that provides a platform for implementing SDN controllers to control network flows in OpenFlow-enabled switches, routers, and other network devices. It uses the OpenFlow protocol and other southbound protocols to communicate with network devices, enabling management of network traffic based on high-level policies defined within the controller's code. Ryu supports multiple OpenFlow versions (including OpenFlow 1.3) and offers a Python-based API for developing network control applications like traffic engineering, network monitoring, load balancing, and firewalling.
 
 ## Screenshot
@@ -40,11 +39,7 @@
 
 ## Built with
 
-  - FastAPI
-  - Python
-  - YOLOv8 for object detection
-  - YOLOv11 (instant segmentation) for detecting fruit freshness
-  - KMeans clustering algorithm
+  - Python3
 
 - ### Environment
 
