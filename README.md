@@ -23,6 +23,13 @@
       Ryu is an open-source software-defined networking (SDN) controller framework that provides a platform for implementing SDN controllers to control network flows in OpenFlow-enabled switches, routers, and other network devices. It uses the OpenFlow protocol and other southbound protocols to communicate with network devices, enabling management of network traffic based on high-level policies defined within the controller's code. Ryu supports multiple OpenFlow versions (including OpenFlow 1.3) and offers a Python-based API for developing network control applications like traffic engineering, network monitoring, load balancing, and firewalling.
 
 ## Screenshot
+- ### Initializing programs
+  <img  src="./assets/screenshot1.jpg" style="width:100%;object-fit:contain">
+
+  <img  src="./assets/screenshot2.jpg" style="width:100%;object-fit:contain">
+
+  <img  src="./assets/screenshot3.jpg" style="width:100%;object-fit:contain">
+
 - ### Monitering active and inactive switches
   <img  src="./assets/active-inactive.png" style="width:100%;object-fit:contain">
 
